@@ -64,7 +64,7 @@ export const project = [
         description: 'About Interactive Algorithm Visualizer using HTML, CSS, JavaScript, and D3.js.',
         image: algvisualizer,
         git: 'https://github.com/nithintejesh/algvisualizer',
-        url: 'https://algvisualizer-site.netlify.app/', // Add this line
+        url: 'https://algvisualizer-site.netlify.app/',
         technologies: ['HTML', 'CSS', 'Javascript', 'D3.js']
     },
     {
@@ -72,7 +72,7 @@ export const project = [
         description: 'An extractive text summarizer built with Django. This application processes textual content and provides summarized versions using extractive summarization techniques.',
         image: extractive,
         git: "https://github.com/nithintejesh/extractice-summarizer-django",
-        url: 'https://easyextractivesummarizer.pythonanywhere.com/', // Add this line
+        url: 'https://easyextractivesummarizer.pythonanywhere.com/',
         technologies: ['Python', 'Django']
     }
 ];
