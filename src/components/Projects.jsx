@@ -80,7 +80,7 @@ export const project = [
         description: 'An AI-powered tool for early detection of plant blights, helping farmers ensure healthier crops and improved yields.',
         image: blight_detect_dark,
         git: "https://github.com/nithintejesh/blight-detect",
-        url: '',
+        url: 'https://github.com/nithintejesh/blight-detect',
         technologies: ['Python', 'TensorFlow', 'FastAPI', 'Node.js', 'React', 'Tailwind CSS']
     }
 ];
