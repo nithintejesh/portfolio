@@ -1,7 +1,7 @@
 import React from "react";
 import algvisualizer from '../assets/algvisualizer.png'
 import conciseai from '../assets/conciseai.png'
-import blight_detect_light from '../assets/blight-detect-light.png'
+// import blight_detect_light from '../assets/blight-detect-light.png'
 import blight_detect_dark from '../assets/blight-detect-dark.png'
 import Footer from './Footer'
 
