@@ -8,6 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Experience from './components/Experience';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/experience' element={<Experience/>}/>
         <Route path='*' element={<h1>404 Not Found</h1>} />
       </Routes>
     </BrowserRouter>

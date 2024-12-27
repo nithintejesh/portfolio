@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -167,3 +167,24 @@
 		border-radius: 50%;
 	}
 }
+
+
+
+.experience {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	min-height: 100vh; /* Full viewport height */
+  }
+  
+  .vertical-timeline-element {
+	margin-bottom: 1.5rem; /* Spacing between timeline elements */
+  }
+  
+  footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 1rem 0;
+  }
+  
