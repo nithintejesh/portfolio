@@ -7,14 +7,16 @@ import Footer from './Footer';
 const Experience = () => {
   return (
     <div className="experience bg-black w-screen text-white min-h-screen flex flex-col overflow-x-hidden">
-      {/* Header Section */}
-      <div className="pt-16 sm:px-16">
-        <h2 className="text-4xl sm:text-5xl font-extrabold mt-2">Work Experience.</h2>
+      
+      <div className="pt-20 sm:px-16">
+        <h2 className="text-4xl sm:text-5xl font-extrabold mt-4">
+          Work Experience.
+        </h2>
       </div>
 
-      {/* Main Content Section */}
-      <div className="flex-grow">
-        <VerticalTimeline className="mt-9">
+
+      <div className="flex-grow mt-8">
+        <VerticalTimeline>
           {experiences.map((experience) => (
             <VerticalTimelineElement
               key={experience.company}
@@ -63,7 +65,7 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
 
-      {/* Footer Section */}
+      
       <div className="mt-auto">
         <Footer />
       </div>
